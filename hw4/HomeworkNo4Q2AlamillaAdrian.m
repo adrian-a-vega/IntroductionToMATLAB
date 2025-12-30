@@ -1,0 +1,6 @@
+x = linspace(-pi, pi)
+y1 = cos(4*x)
+y2 = sin(10*x)
+y3 = exp(abs(x))
+y = (y1).*(y2).*(y3)
+plot(x, y)
